@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "xakamoderator",
+  "version": "${version}",
+  "name": "XakaModerator",
+  "description": "Client-side moderation interface for authorized server moderators.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.xaka.moderator.XakaModeratorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
